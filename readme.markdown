@@ -1,4 +1,4 @@
-# koa-continuation-local-storage [![Build Status](https://travis-ci.org/madbence/koa-continuation-local-strage.svg)](https://travis-ci.org/madbence/koa-continuation-local-strage)
+# koa-continuation-local-storage [![Build Status](https://travis-ci.org/madbence/koa-continuation-local-storage.svg)](https://travis-ci.org/madbence/koa-continuation-local-storage)
 
 > [`continuation-local-storage`](https://npmjs.com/continuation-local-storage) middleware for [`koa`](https://npmjs.org/koa).
 

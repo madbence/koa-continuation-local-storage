@@ -4,7 +4,7 @@
   "description": "Continuation local storage middleware for koa",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "node --harmony node_modules/.bin/tape test.js"
   },
   "repository": {
     "type": "git",
