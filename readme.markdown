@@ -1,10 +1,10 @@
-# koa-continuation-local-storage
+# koa-continuation-local-storage [![Build Status](https://travis-ci.org/madbence/koa-continuation-local-strage.svg)](https://travis-ci.org/madbence/koa-continuation-local-strage)
 
-> `continuation-local-storage` middleware for `koa`
+> [`continuation-local-storage`](https://npmjs.com/continuation-local-storage) middleware for [`koa`](https://npmjs.org/koa).
 
 ## install
 
-Install the [`package`](https://npmjs.com/koa-continuation-local-storage) with [npm](https://npmjs.com):
+Install the [package](https://npmjs.com/koa-continuation-local-storage) with [npm](https://npmjs.com):
 
 ```sh
 $ npm install koa-continuation-local-storage
