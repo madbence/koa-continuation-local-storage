@@ -1,0 +1,31 @@
+{
+  "name": "koa-continuation-local-storage",
+  "version": "1.0.0",
+  "description": "Continuation local storage middleware for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madbence/koa-continuation-local-storage.git"
+  },
+  "keywords": [
+    "cls",
+    "continuation-local-storage",
+    "koa",
+    "middleware"
+  ],
+  "author": "Bence Dányi <bence@danyi.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madbence/koa-continuation-local-storage/issues"
+  },
+  "homepage": "https://github.com/madbence/koa-continuation-local-storage#readme",
+  "devDependencies": {
+    "continuation-local-storage": "^3.1.4",
+    "koa": "^1.1.0",
+    "supertest": "^1.1.0",
+    "tape": "^4.2.1"
+  }
+}
