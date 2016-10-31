@@ -21,9 +21,7 @@ const ns = createNamespace('ns');
 const app = koa();
 
 app
-  .use(cls({
-    ns: ns
-  }))
+  .use(cls(ns))
   .use(function* (next) {
     ns.set('foo', 'bar');
     yield* next;
@@ -35,7 +33,7 @@ app
 
 ## api
 
-### `cls(opts)`
+### `cls(ns)`, `cls(opts)`
 
 Create middleware that wraps downstream middlewares to `opts.ns` namespace.
 
